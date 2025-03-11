@@ -1,0 +1,4 @@
+source;share/handbot_moveit_demos/local_setup.bash
+source;share/handbot_moveit_demos/local_setup.dsv
+source;share/handbot_moveit_demos/local_setup.sh
+source;share/handbot_moveit_demos/local_setup.zsh

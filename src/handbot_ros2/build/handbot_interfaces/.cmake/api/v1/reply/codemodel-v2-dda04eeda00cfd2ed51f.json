@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6b3984cc3f67b4508321.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "handbot_interfaces__py",
+					"jsonFile" : "directory-handbot_interfaces__py-e66283432d312d3dab65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_interfaces/handbot_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "handbot_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_handbot_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_handbot_interfaces_egg-43780c636eea521f7b1b.json",
+					"name" : "ament_cmake_python_build_handbot_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_handbot_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_handbot_interfaces-e432f07496f666af2f7a.json",
+					"name" : "ament_cmake_python_copy_handbot_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbot_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbot_interfaces-c54213d02b89cf988ac1.json",
+					"name" : "handbot_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbot_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbot_interfaces__cpp-ee42cb8d5704d413520b.json",
+					"name" : "handbot_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "handbot_interfaces__py::@d27958884c56b68cff07",
+					"jsonFile" : "target-handbot_interfaces__py-4293c44ae0e201c6c4a7.json",
+					"name" : "handbot_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbot_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbot_interfaces__rosidl_generator_c-00fc231435602f3f7f21.json",
+					"name" : "handbot_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbot_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbot_interfaces__rosidl_generator_py-a702fea1fd1cf40a7d0f.json",
+					"name" : "handbot_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbot_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbot_interfaces__rosidl_generator_type_description-803b015c7a64fda879fb.json",
+					"name" : "handbot_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbot_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbot_interfaces__rosidl_typesupport_c-1aaada36078f66258c3d.json",
+					"name" : "handbot_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbot_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbot_interfaces__rosidl_typesupport_cpp-442e67664326ef0058f0.json",
+					"name" : "handbot_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbot_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbot_interfaces__rosidl_typesupport_fastrtps_c-ba56574cadc6be596b6f.json",
+					"name" : "handbot_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbot_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbot_interfaces__rosidl_typesupport_fastrtps_cpp-5c1842493bf9044107b9.json",
+					"name" : "handbot_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbot_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbot_interfaces__rosidl_typesupport_introspection_c-9fe056164bb42e456236.json",
+					"name" : "handbot_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbot_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbot_interfaces__rosidl_typesupport_introspection_cpp-b123d61c35a510160f86.json",
+					"name" : "handbot_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbot_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbot_interfaces_s__rosidl_typesupport_c-1519f8f8387b9c390f27.json",
+					"name" : "handbot_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbot_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbot_interfaces_s__rosidl_typesupport_fastrtps_c-ba4900335eba6867469e.json",
+					"name" : "handbot_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbot_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbot_interfaces_s__rosidl_typesupport_introspection_c-3b0fde13b4743476bb8a.json",
+					"name" : "handbot_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbot_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbot_interfaces_uninstall-cd6df56c41465ebd8296.json",
+					"name" : "handbot_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6f26aa50112a032b8ea2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_interfaces",
+		"source" : "/home/darsh/ros2_ws/src/handbot_ros2/handbot_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

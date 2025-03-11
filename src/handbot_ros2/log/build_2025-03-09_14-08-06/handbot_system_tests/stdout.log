@@ -1,0 +1,24 @@
+[100%] Built target arm_gripper_loop_controller
+-- Install configuration: ""
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/scripts
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/scripts/arm_gripper_loop_controller.py
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/src
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/src/arm_gripper_loop_controller.cpp
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/lib/handbot_system_tests/arm_gripper_loop_controller
+-- Set non-toolchain portion of runtime path of "/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/lib/handbot_system_tests/arm_gripper_loop_controller" to ""
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/lib/handbot_system_tests/arm_gripper_loop_controller.py
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/ament_index/resource_index/package_run_dependencies/handbot_system_tests
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/ament_index/resource_index/parent_prefix_path/handbot_system_tests
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/environment/ament_prefix_path.sh
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/environment/ament_prefix_path.dsv
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/environment/path.sh
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/environment/path.dsv
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/local_setup.bash
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/local_setup.sh
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/local_setup.zsh
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/local_setup.dsv
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/package.dsv
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/ament_index/resource_index/packages/handbot_system_tests
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/cmake/handbot_system_testsConfig.cmake
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/cmake/handbot_system_testsConfig-version.cmake
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests/share/handbot_system_tests/package.xml

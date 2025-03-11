@@ -1,0 +1,78 @@
+[0.029s] Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_moveit_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_moveit_demos -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos
+[0.215s] -- The C compiler identification is GNU 13.3.0
+[0.428s] -- The CXX compiler identification is GNU 13.3.0
+[0.480s] -- Detecting C compiler ABI info
+[0.644s] -- Detecting C compiler ABI info - done
+[0.651s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.652s] -- Detecting C compile features
+[0.653s] -- Detecting C compile features - done
+[0.657s] -- Detecting CXX compiler ABI info
+[0.761s] -- Detecting CXX compiler ABI info - done
+[0.772s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.772s] -- Detecting CXX compile features
+[0.772s] -- Detecting CXX compile features - done
+[0.814s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.979s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.169s] -- Found moveit_msgs: 2.6.0 (/opt/ros/jazzy/share/moveit_msgs/cmake)
+[1.303s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.316s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.389s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.432s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.925s] -- Found moveit_ros_planning_interface: 2.12.1 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[2.035s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[2.058s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.179s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.234s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.237s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.381s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.424s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.451s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.537s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.576s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[2.633s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.636s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.909s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.969s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[3.010s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[3.113s] -- Found moveit_visual_tools: 4.1.2 (/opt/ros/jazzy/share/moveit_visual_tools/cmake)
+[3.273s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.276s] -- Found OGRE
+[3.276s] --   static     : OFF
+[3.276s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.276s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.276s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.276s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.276s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[3.276s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.276s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[3.276s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.276s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.276s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.276s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.302s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.3")  
+[3.312s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[3.466s] -- Found X11: /usr/include   
+[3.466s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[3.563s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[3.563s] -- Looking for gethostbyname
+[3.645s] -- Looking for gethostbyname - found
+[3.645s] -- Looking for connect
+[3.725s] -- Looking for connect - found
+[3.725s] -- Looking for remove
+[3.838s] -- Looking for remove - found
+[3.838s] -- Looking for shmat
+[3.916s] -- Looking for shmat - found
+[3.916s] -- Looking for IceConnectionNumber in ICE
+[4.004s] -- Looking for IceConnectionNumber in ICE - found
+[4.038s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[4.360s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.479s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.479s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/darsh/ros2_ws/src/handbot_ros2/handbot_moveit_demos/include>
+[4.479s] -- Configured cppcheck exclude dirs and/or files: 
+[4.484s] -- Added test 'lint_cmake' to check CMake code style
+[4.488s] -- Added test 'uncrustify' to check C / C++ code style
+[4.488s] -- Configured uncrustify additional arguments: 
+[4.488s] -- Added test 'xmllint' to check XML markup files
+[4.491s] -- Configuring done (4.5s)
+[4.678s] -- Generating done (0.1s)
+[4.687s] -- Build files have been written to: /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_moveit_demos

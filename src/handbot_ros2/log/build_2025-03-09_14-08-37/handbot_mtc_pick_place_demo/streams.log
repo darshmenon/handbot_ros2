@@ -1,0 +1,59 @@
+[0.009s] Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_mtc_pick_place_demo': AMENT_PREFIX_PATH=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_interfaces:/home/darsh/ros2_ws/install/handbot_ros2:/home/darsh/ros2_ws/install/handbot_system_tests:/home/darsh/ros2_ws/install/handbot_moveit_config:/home/darsh/ros2_ws/install/handbot_gazebo:/home/darsh/ros2_ws/install/handbot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_mtc_pick_place_demo -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_pick_place_demo
+[0.050s] -- The C compiler identification is GNU 13.3.0
+[0.096s] -- The CXX compiler identification is GNU 13.3.0
+[0.114s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.285s] -- Detecting CXX compiler ABI info - done
+[0.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.293s] -- Detecting CXX compile features
+[0.293s] -- Detecting CXX compile features - done
+[0.299s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.414s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.510s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[0.516s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[0.596s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.619s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.635s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.656s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.737s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.740s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.812s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.827s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.844s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.920s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.948s] -- Found moveit_common: 2.12.1 (/opt/ros/jazzy/share/moveit_common/cmake)
+[1.013s] -- Found moveit_core: 2.12.1 (/opt/ros/jazzy/share/moveit_core/cmake)
+[1.138s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.183s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.294s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.294s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.553s] -- Found moveit_ros_planning: 2.12.1 (/opt/ros/jazzy/share/moveit_ros_planning/cmake)
+[1.557s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[1.587s] -- Found moveit_ros_planning_interface: 2.12.1 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[1.596s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[1.612s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[1.634s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[1.670s] -- Configuring incomplete, errors occurred!
+[1.670s] [31mCMake Error at CMakeLists.txt:52 (find_package):
+[1.670s]   By not providing "Findmoveit_task_constructor_core.cmake" in
+[1.670s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[1.670s]   configuration file provided by "moveit_task_constructor_core", but CMake
+[1.670s]   did not find one.
+[1.670s] 
+[1.671s]   Could not find a package configuration file provided by
+[1.671s]   "moveit_task_constructor_core" with any of the following names:
+[1.671s] 
+[1.671s]     moveit_task_constructor_coreConfig.cmake
+[1.671s]     moveit_task_constructor_core-config.cmake
+[1.671s] 
+[1.671s]   Add the installation prefix of "moveit_task_constructor_core" to
+[1.671s]   CMAKE_PREFIX_PATH or set "moveit_task_constructor_core_DIR" to a directory
+[1.671s]   containing one of the above files.  If "moveit_task_constructor_core"
+[1.671s]   provides a separate development package or SDK, be sure it has been
+[1.671s]   installed.
+[1.671s] 
+[1.671s] [0m

@@ -1,0 +1,24 @@
+[0.051s] Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup -- -j12 -l12
+[0.097s] Invoked command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup -- -j12 -l12
+[0.105s] Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup
+[0.116s] -- Install configuration: ""
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/scripts
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/scripts/handbot_100_gazebo_and_moveit.sh
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/scripts/handbot_100_gazebo.sh
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/scripts/handbot_100_mtc_demos.sh
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/ament_index/resource_index/package_run_dependencies/handbot_bringup
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/ament_index/resource_index/parent_prefix_path/handbot_bringup
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/environment/ament_prefix_path.sh
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/environment/ament_prefix_path.dsv
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/environment/path.sh
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/environment/path.dsv
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/local_setup.bash
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/local_setup.sh
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/local_setup.zsh
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/local_setup.dsv
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/package.dsv
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/ament_index/resource_index/packages/handbot_bringup
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/cmake/handbot_bringupConfig.cmake
+[0.116s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/cmake/handbot_bringupConfig-version.cmake
+[0.117s] -- Up-to-date: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/package.xml
+[0.213s] Invoked command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup

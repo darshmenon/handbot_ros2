@@ -1,0 +1,1 @@
+Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_interfaces -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_interfaces

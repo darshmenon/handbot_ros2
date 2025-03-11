@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "handbot_interfaces__py",
+		"source" : "/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_interfaces/handbot_interfaces__py"
+	}
+}

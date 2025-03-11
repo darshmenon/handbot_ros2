@@ -1,0 +1,19 @@
+[0.030s] Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_moveit_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_moveit_demos -- -j12 -l12
+[0.092s] [ 25%] [32mBuilding CXX object CMakeFiles/plan_around_objects.dir/src/plan_around_objects.cpp.o[0m
+[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[3.328s] In file included from [01m[K/home/darsh/ros2_ws/src/handbot_ros2/handbot_moveit_demos/src/hello_moveit.cpp:16[m[K:
+[3.328s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[3.328s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[3.328s]       |                                                                             [01;36m[K^[m[K
+[3.455s] In file included from [01m[K/home/darsh/ros2_ws/src/handbot_ros2/handbot_moveit_demos/src/plan_around_objects.cpp:13[m[K:
+[3.455s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[3.455s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[3.455s]       |                                                                             [01;36m[K^[m[K
+[7.127s] In file included from [01m[K/home/darsh/ros2_ws/src/handbot_ros2/handbot_moveit_demos/src/plan_around_objects.cpp:14[m[K:
+[7.127s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[7.127s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[7.127s]       |                                                                             [01;36m[K^[m[K
+[7.660s] [ 75%] [32m[1mLinking CXX executable hello_moveit[0m
+[8.178s] [ 75%] Built target hello_moveit
+[11.131s] [100%] [32m[1mLinking CXX executable plan_around_objects[0m
+[11.887s] [100%] Built target plan_around_objects

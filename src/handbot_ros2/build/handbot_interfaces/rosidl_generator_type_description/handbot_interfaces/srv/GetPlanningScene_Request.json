@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "handbot_interfaces/srv/GetPlanningScene_Request",
+      "fields": [
+        {
+          "name": "target_shape",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "target_dimensions",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "handbot_interfaces/srv/GetPlanningScene_Request",
+      "hash_string": "RIHS01_a1605635d24e5d1ad1a759e35b8e17b8e13cacf0d951a7a11c835cdb563fe9f1"
+    }
+  ]
+}

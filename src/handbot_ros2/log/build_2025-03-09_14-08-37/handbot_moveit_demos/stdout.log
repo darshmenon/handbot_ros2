@@ -1,0 +1,22 @@
+[ 50%] Built target hello_moveit
+[100%] Built target plan_around_objects
+-- Install configuration: ""
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/lib/handbot_moveit_demos/hello_moveit
+-- Set non-toolchain portion of runtime path of "/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/lib/handbot_moveit_demos/hello_moveit" to ""
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/lib/handbot_moveit_demos/plan_around_objects
+-- Set non-toolchain portion of runtime path of "/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/lib/handbot_moveit_demos/plan_around_objects" to ""
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/share/ament_index/resource_index/package_run_dependencies/handbot_moveit_demos
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/share/ament_index/resource_index/parent_prefix_path/handbot_moveit_demos
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/share/handbot_moveit_demos/environment/ament_prefix_path.sh
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/share/handbot_moveit_demos/environment/ament_prefix_path.dsv
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/share/handbot_moveit_demos/environment/path.sh
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/share/handbot_moveit_demos/environment/path.dsv
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/share/handbot_moveit_demos/local_setup.bash
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/share/handbot_moveit_demos/local_setup.sh
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/share/handbot_moveit_demos/local_setup.zsh
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/share/handbot_moveit_demos/local_setup.dsv
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/share/handbot_moveit_demos/package.dsv
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/share/ament_index/resource_index/packages/handbot_moveit_demos
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/share/handbot_moveit_demos/cmake/handbot_moveit_demosConfig.cmake
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/share/handbot_moveit_demos/cmake/handbot_moveit_demosConfig-version.cmake
+-- Installing: /home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos/share/handbot_moveit_demos/package.xml

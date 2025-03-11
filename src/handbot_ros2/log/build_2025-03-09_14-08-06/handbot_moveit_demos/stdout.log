@@ -1,0 +1,6 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/plan_around_objects.dir/src/plan_around_objects.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable hello_moveit[0m
+[ 75%] Built target hello_moveit
+[100%] [32m[1mLinking CXX executable plan_around_objects[0m
+[100%] Built target plan_around_objects

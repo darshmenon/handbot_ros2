@@ -1,0 +1,460 @@
+[0.379s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.379s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xf8aa49c39ca0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xf8aa49c39970>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xf8aa49c39970>>, mixin_verb=('build',))
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.417s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/darsh/ros2_ws/src/handbot_ros2'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ros'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['cmake', 'python']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'cmake'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['python_setup_py']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python_setup_py'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_bringup) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_bringup) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_bringup) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_bringup) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_bringup) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_bringup) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_bringup) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_bringup) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package 'handbot_bringup' with type 'ros.ament_cmake' and name 'handbot_bringup'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_description) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_description) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_description) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_description) by extension 'colcon_pkg'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_description) by extensions ['colcon_meta']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_description) by extension 'colcon_meta'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_description) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_description) by extension 'ros'
+[0.436s] DEBUG:colcon.colcon_core.package_identification:Package 'handbot_description' with type 'ros.ament_cmake' and name 'handbot_description'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_gazebo) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_gazebo) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_gazebo) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_gazebo) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_gazebo) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_gazebo) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_gazebo) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_gazebo) by extension 'ros'
+[0.436s] DEBUG:colcon.colcon_core.package_identification:Package 'handbot_gazebo' with type 'ros.ament_cmake' and name 'handbot_gazebo'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_interfaces) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_interfaces) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_interfaces) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_interfaces) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_interfaces) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_interfaces) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_interfaces) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_interfaces) by extension 'ros'
+[0.437s] DEBUG:colcon.colcon_core.package_identification:Package 'handbot_interfaces' with type 'ros.ament_cmake' and name 'handbot_interfaces'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_config) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_config) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_config) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_config) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_config) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_config) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_config) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_config) by extension 'ros'
+[0.437s] DEBUG:colcon.colcon_core.package_identification:Package 'handbot_moveit_config' with type 'ros.ament_cmake' and name 'handbot_moveit_config'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_demos) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_demos) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_demos) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_demos) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_demos) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_demos) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_demos) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_moveit_demos) by extension 'ros'
+[0.438s] DEBUG:colcon.colcon_core.package_identification:Package 'handbot_moveit_demos' with type 'ros.ament_cmake' and name 'handbot_moveit_demos'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_demos) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_demos) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_demos) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_demos) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_demos) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_demos) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_demos) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_demos) by extension 'ros'
+[0.438s] DEBUG:colcon.colcon_core.package_identification:Package 'handbot_mtc_demos' with type 'ros.ament_cmake' and name 'handbot_mtc_demos'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_pick_place_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_pick_place_demo) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_pick_place_demo) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_pick_place_demo) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_pick_place_demo) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_pick_place_demo) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_pick_place_demo) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_pick_place_demo) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_mtc_pick_place_demo) by extension 'ros'
+[0.439s] DEBUG:colcon.colcon_core.package_identification:Package 'handbot_mtc_pick_place_demo' with type 'ros.ament_cmake' and name 'handbot_mtc_pick_place_demo'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_ros2) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_ros2) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_ros2) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_ros2) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_ros2) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_ros2) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_ros2) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_ros2) by extension 'ros'
+[0.439s] DEBUG:colcon.colcon_core.package_identification:Package 'handbot_ros2' with type 'ros.ament_cmake' and name 'handbot_ros2'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_system_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_system_tests) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_system_tests) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_system_tests) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_system_tests) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_system_tests) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_system_tests) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_system_tests) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(handbot_system_tests) by extension 'ros'
+[0.439s] DEBUG:colcon.colcon_core.package_identification:Package 'handbot_system_tests' with type 'ros.ament_cmake' and name 'handbot_system_tests'
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.455s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/darsh/ros2_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.455s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/darsh/ros2_ws/install/handbot_ros2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.455s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/darsh/ros2_ws/install/handbot_system_tests' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.455s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/darsh/ros2_ws/install/handbot_moveit_config' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.455s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/darsh/ros2_ws/install/handbot_gazebo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.455s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/darsh/ros2_ws/install/handbot_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.455s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/darsh/ros2_ws/install/handbot_ros2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.455s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/darsh/ros2_ws/install/handbot_system_tests' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.455s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/darsh/ros2_ws/install/handbot_moveit_config' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.455s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/darsh/ros2_ws/install/handbot_gazebo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.456s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/darsh/ros2_ws/install/handbot_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.458s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 469 installed packages in /opt/ros/jazzy
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.487s] DEBUG:colcon.colcon_core.verb:Building package 'handbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup', 'merge_install': False, 'path': '/home/darsh/ros2_ws/src/handbot_ros2/handbot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_description' build argument 'cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_description' build argument 'cmake_target' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.487s] DEBUG:colcon.colcon_core.verb:Building package 'handbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description', 'merge_install': False, 'path': '/home/darsh/ros2_ws/src/handbot_ros2/handbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.487s] DEBUG:colcon.colcon_core.verb:Building package 'handbot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo', 'merge_install': False, 'path': '/home/darsh/ros2_ws/src/handbot_ros2/handbot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.487s] DEBUG:colcon.colcon_core.verb:Building package 'handbot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_interfaces', 'merge_install': False, 'path': '/home/darsh/ros2_ws/src/handbot_ros2/handbot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.488s] DEBUG:colcon.colcon_core.verb:Building package 'handbot_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_config', 'merge_install': False, 'path': '/home/darsh/ros2_ws/src/handbot_ros2/handbot_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_demos' build argument 'cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_demos' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_moveit_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.488s] DEBUG:colcon.colcon_core.verb:Building package 'handbot_moveit_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_moveit_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos', 'merge_install': False, 'path': '/home/darsh/ros2_ws/src/handbot_ros2/handbot_moveit_demos', 'symlink_install': False, 'test_result_base': None}
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_demos' build argument 'cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_demos' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.488s] DEBUG:colcon.colcon_core.verb:Building package 'handbot_mtc_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_mtc_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_demos', 'merge_install': False, 'path': '/home/darsh/ros2_ws/src/handbot_ros2/handbot_mtc_demos', 'symlink_install': False, 'test_result_base': None}
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_system_tests' build argument 'cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_system_tests' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_system_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_system_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_system_tests' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_system_tests' build argument 'cmake_force_configure' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_system_tests' build argument 'ament_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_system_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_system_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.488s] DEBUG:colcon.colcon_core.verb:Building package 'handbot_system_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_system_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests', 'merge_install': False, 'path': '/home/darsh/ros2_ws/src/handbot_ros2/handbot_system_tests', 'symlink_install': False, 'test_result_base': None}
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_pick_place_demo' build argument 'cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_pick_place_demo' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_pick_place_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_pick_place_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_pick_place_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_pick_place_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_pick_place_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_pick_place_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_mtc_pick_place_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.488s] DEBUG:colcon.colcon_core.verb:Building package 'handbot_mtc_pick_place_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_mtc_pick_place_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_pick_place_demo', 'merge_install': False, 'path': '/home/darsh/ros2_ws/src/handbot_ros2/handbot_mtc_pick_place_demo', 'symlink_install': False, 'test_result_base': None}
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_ros2' build argument 'cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_ros2' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'handbot_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'handbot_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'handbot_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'handbot_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'handbot_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'handbot_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.489s] DEBUG:colcon.colcon_core.verb:Building package 'handbot_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_ros2', 'merge_install': False, 'path': '/home/darsh/ros2_ws/src/handbot_ros2/handbot_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.489s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.491s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.492s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_bringup' with build type 'ament_cmake'
+[0.492s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_bringup'
+[0.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.506s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_description' with build type 'ament_cmake'
+[0.506s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_description'
+[0.506s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.517s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_gazebo' with build type 'ament_cmake'
+[0.517s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_gazebo'
+[0.518s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.518s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.520s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_interfaces' with build type 'ament_cmake'
+[0.521s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_interfaces'
+[0.521s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.521s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.523s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_moveit_config' with build type 'ament_cmake'
+[0.523s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_moveit_config'
+[0.523s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.523s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.526s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_system_tests' with build type 'ament_cmake'
+[0.526s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_system_tests'
+[0.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.529s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_moveit_demos' with build type 'ament_cmake'
+[0.529s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_moveit_demos'
+[0.529s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.532s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_mtc_demos' with build type 'ament_cmake'
+[0.532s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darsh/ros2_ws/src/handbot_ros2/handbot_mtc_demos'
+[0.533s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_bringup -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup
+[0.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_description -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description
+[0.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_gazebo -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo
+[0.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_interfaces -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_interfaces
+[0.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_config
+[0.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_system_tests -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests
+[0.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_moveit_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_moveit_demos -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_moveit_demos
+[0.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_mtc_demos -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_demos
+[1.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_bringup -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup
+[1.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup -- -j12 -l12
+[1.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_description -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description
+[1.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_description -- -j12 -l12
+[1.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup -- -j12 -l12
+[1.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup
+[1.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_description -- -j12 -l12
+[1.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_description
+[1.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(handbot_bringup)
+[1.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_bringup
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup' for CMake module files
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup' for CMake config files
+[1.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('handbot_bringup', 'cmake_prefix_path')
+[1.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/hook/cmake_prefix_path.ps1'
+[1.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/hook/cmake_prefix_path.dsv'
+[1.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/hook/cmake_prefix_path.sh'
+[1.987s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/bin'
+[1.987s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/lib/pkgconfig/handbot_bringup.pc'
+[1.988s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/lib/python3.12/site-packages'
+[1.989s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/bin'
+[1.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/package.ps1'
+[1.996s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/package.dsv'
+[1.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/package.sh'
+[1.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/package.bash'
+[2.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/package.zsh'
+[2.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/colcon-core/packages/handbot_bringup)
+[2.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(handbot_bringup)
+[2.007s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup' for CMake module files
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup' for CMake config files
+[2.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('handbot_bringup', 'cmake_prefix_path')
+[2.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/hook/cmake_prefix_path.ps1'
+[2.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/hook/cmake_prefix_path.dsv'
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/hook/cmake_prefix_path.sh'
+[2.014s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/bin'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/lib/pkgconfig/handbot_bringup.pc'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/lib/python3.12/site-packages'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/bin'
+[2.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/package.ps1'
+[2.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/package.dsv'
+[2.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/package.sh'
+[2.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/package.bash'
+[2.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/handbot_bringup/package.zsh'
+[2.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_bringup/share/colcon-core/packages/handbot_bringup)
+[2.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(handbot_description)
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description' for CMake module files
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description' for CMake config files
+[2.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_description
+[2.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('handbot_description', 'cmake_prefix_path')
+[2.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/hook/cmake_prefix_path.ps1'
+[2.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/hook/cmake_prefix_path.dsv'
+[2.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/hook/cmake_prefix_path.sh'
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/bin'
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/lib/pkgconfig/handbot_description.pc'
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/lib/python3.12/site-packages'
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/bin'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/package.ps1'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/package.dsv'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/package.sh'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/package.bash'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/package.zsh'
+[2.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/colcon-core/packages/handbot_description)
+[2.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(handbot_description)
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description' for CMake module files
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description' for CMake config files
+[2.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('handbot_description', 'cmake_prefix_path')
+[2.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/hook/cmake_prefix_path.ps1'
+[2.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/hook/cmake_prefix_path.dsv'
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/hook/cmake_prefix_path.sh'
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/bin'
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/lib/pkgconfig/handbot_description.pc'
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/lib/python3.12/site-packages'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/bin'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/package.ps1'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/package.dsv'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/package.sh'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/package.bash'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/handbot_description/package.zsh'
+[2.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_description/share/colcon-core/packages/handbot_description)
+[2.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_system_tests -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_system_tests
+[2.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_system_tests -- -j12 -l12
+[3.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_gazebo -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo
+[3.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_gazebo -- -j12 -l12
+[3.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_gazebo -- -j12 -l12
+[3.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_gazebo
+[3.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_mtc_demos' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darsh/ros2_ws/src/handbot_ros2/handbot_mtc_demos -DCMAKE_INSTALL_PREFIX=/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_demos
+[3.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(handbot_gazebo)
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo' for CMake module files
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo' for CMake config files
+[3.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('handbot_gazebo', 'cmake_prefix_path')
+[3.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/hook/cmake_prefix_path.ps1'
+[3.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/hook/cmake_prefix_path.dsv'
+[3.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/hook/cmake_prefix_path.sh'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/bin'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/lib/pkgconfig/handbot_gazebo.pc'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/lib/python3.12/site-packages'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/bin'
+[3.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/package.ps1'
+[3.734s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/package.dsv'
+[3.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/package.sh'
+[3.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/package.bash'
+[3.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/package.zsh'
+[3.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/colcon-core/packages/handbot_gazebo)
+[3.736s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(handbot_gazebo)
+[3.736s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo' for CMake module files
+[3.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/ros2_ws/src/handbot_ros2/build/handbot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darsh/ros2_ws/src/handbot_ros2/build/handbot_gazebo
+[3.739s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo' for CMake config files
+[3.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('handbot_gazebo', 'cmake_prefix_path')
+[3.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/hook/cmake_prefix_path.ps1'
+[3.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/hook/cmake_prefix_path.dsv'
+[3.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/hook/cmake_prefix_path.sh'
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/bin'
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/lib/pkgconfig/handbot_gazebo.pc'
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/lib/python3.12/site-packages'
+[3.742s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/bin'
+[3.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/package.ps1'
+[3.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/package.dsv'
+[3.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/package.sh'
+[3.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/package.bash'
+[3.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/handbot_gazebo/package.zsh'
+[3.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_gazebo/share/colcon-core/packages/handbot_gazebo)
+[3.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(handbot_mtc_demos)
+[3.745s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_demos' for CMake module files
+[3.745s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_demos' for CMake config files
+[3.746s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_demos/bin'
+[3.746s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_demos/lib/pkgconfig/handbot_mtc_demos.pc'
+[3.746s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_demos/lib/python3.12/site-packages'
+[3.746s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_demos/bin'
+[3.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_demos/share/handbot_mtc_demos/package.ps1'
+[3.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_demos/share/handbot_mtc_demos/package.dsv'
+[3.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_demos/share/handbot_mtc_demos/package.sh'
+[3.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_demos/share/handbot_mtc_demos/package.bash'
+[3.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_demos/share/handbot_mtc_demos/package.zsh'
+[3.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/ros2_ws/src/handbot_ros2/install/handbot_mtc_demos/share/colcon-core/packages/handbot_mtc_demos)
+[8.981s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.981s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.981s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[8.981s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.997s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.997s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.997s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.030s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.030s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darsh/ros2_ws/src/handbot_ros2/install/local_setup.ps1'
+[9.031s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/darsh/ros2_ws/src/handbot_ros2/install/_local_setup_util_ps1.py'
+[9.032s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darsh/ros2_ws/src/handbot_ros2/install/setup.ps1'
+[9.034s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darsh/ros2_ws/src/handbot_ros2/install/local_setup.sh'
+[9.034s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/darsh/ros2_ws/src/handbot_ros2/install/_local_setup_util_sh.py'
+[9.035s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darsh/ros2_ws/src/handbot_ros2/install/setup.sh'
+[9.039s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darsh/ros2_ws/src/handbot_ros2/install/local_setup.bash'
+[9.043s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darsh/ros2_ws/src/handbot_ros2/install/setup.bash'
+[9.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darsh/ros2_ws/src/handbot_ros2/install/local_setup.zsh'
+[9.045s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darsh/ros2_ws/src/handbot_ros2/install/setup.zsh'
