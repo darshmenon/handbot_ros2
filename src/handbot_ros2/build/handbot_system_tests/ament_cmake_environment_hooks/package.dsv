@@ -1,4 +1,0 @@
-source;share/handbot_system_tests/local_setup.bash
-source;share/handbot_system_tests/local_setup.dsv
-source;share/handbot_system_tests/local_setup.sh
-source;share/handbot_system_tests/local_setup.zsh

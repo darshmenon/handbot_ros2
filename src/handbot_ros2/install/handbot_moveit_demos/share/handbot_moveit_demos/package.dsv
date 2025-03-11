@@ -1,8 +1,0 @@
-source;share/handbot_moveit_demos/hook/cmake_prefix_path.ps1
-source;share/handbot_moveit_demos/hook/cmake_prefix_path.dsv
-source;share/handbot_moveit_demos/hook/cmake_prefix_path.sh
-source;share/handbot_moveit_demos/local_setup.bash
-source;share/handbot_moveit_demos/local_setup.dsv
-source;share/handbot_moveit_demos/local_setup.ps1
-source;share/handbot_moveit_demos/local_setup.sh
-source;share/handbot_moveit_demos/local_setup.zsh

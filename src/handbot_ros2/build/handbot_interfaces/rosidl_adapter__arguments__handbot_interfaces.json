@@ -1,6 +1,0 @@
-{
-  "package_name": "handbot_interfaces",
-  "non_idl_tuples": [
-    "/home/darsh/ros2_ws/src/handbot_ros2/handbot_interfaces:srv/GetPlanningScene.srv"
-  ]
-}
