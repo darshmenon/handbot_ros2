@@ -10,7 +10,7 @@ services:
       - DISPLAY
       - XAUTHORITY=/tmp/.Xauthority
     volumes:
-      - $HOME/automaticaddison/shared/ros2:/root/shared/ros2
+      - $HOME/darshmenon02/shared/ros2:/root/shared/ros2
       - $HOME/.Xauthority:/tmp/.Xauthority
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
       - /dev:/dev

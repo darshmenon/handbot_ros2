@@ -4,7 +4,7 @@
   <name>handbot_interfaces</name>
   <version>0.0.0</version>
   <description>Service definitions for generating MoveIt planning scenes from point cloud data, including segmentation and primitive shape fitting for CollisionObjects</description>
-  <maintainer email="automaticaddison@todo.com">ubuntu</maintainer>
+  <maintainer email="darshmenon02@todo.com">ubuntu</maintainer>
   <license>BSD-3-Clause</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

@@ -30,16 +30,16 @@ build_docker_image()
 create_shared_folder()
 {
     # Check if the directory doesn't exist
-    if [ ! -d "$HOME/automaticaddison/shared/ros2" ]; then
+    if [ ! -d "$HOME/darshmenon02/shared/ros2" ]; then
         # Set a log message for folder creation
-        LOG="Creating $HOME/automaticaddison/shared/ros2 ..."
+        LOG="Creating $HOME/darshmenon02/shared/ros2 ..."
 
         # Print the log message
         print_debug
 
         # Create the directory and its parent directories if they don't exist
         # -p flag creates parent directories as needed
-        mkdir -p $HOME/automaticaddison/shared/ros2
+        mkdir -p $HOME/darshmenon02/shared/ros2
     fi
 }
 

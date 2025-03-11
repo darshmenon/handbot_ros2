@@ -5,6 +5,6 @@ moveit_setup_assistant_config:
   SRDF:
     relative_path: config/handbot_100/handbot_100.srdf
   CONFIG:
-    author_name: AutomaticAddison
+    author_name: darshmenon02
     author_email: addison@todo.com
     generated_timestamp: 1734048000
