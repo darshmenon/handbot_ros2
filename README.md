@@ -4,7 +4,7 @@
 
 Handbot is a **ROS2-based pick-and-place robotic system** that utilizes **point cloud data** for planning and execution. This repository provides **scripts and configurations** to set up and run the pick-and-place demo.
 
-For a detailed workflow and project overview, refer to the tutorial:  
+For a detailed workflow and project overview, refer to the tutorial:\
 📌 **[Handbot Project Workflow](https://docs.google.com/presentation/d/1_IrrrFWcnsJyO7S9RAhfpcaALf2ykr9DR3WG7Q5xyDs/edit?usp=sharing)**
 
 ---
@@ -13,7 +13,7 @@ For a detailed workflow and project overview, refer to the tutorial:
 
 Before running the project, ensure you have the following installed:
 
-✅ **ROS2 Jazzy**  
+✅ **ROS2 Jazzy**\
 ✅ **Dependencies for MoveIt and Point Cloud Processing**
 
 ---
@@ -32,40 +32,41 @@ source install/setup.bash
 
 ---
 
-## **1. Running the Point Cloud Processing Script**
+## **1. Running the Robot Simulation & Pick-and-Place Task**
 
-📂 **Path to script:**  
+📂 **Path to script:**\
+`~/ros2_ws/src/handbot_ros2/handbot_mtc_pick_place_demo/scripts/robot.sh`
+
+This script automates:
+
+✅ **Launching Gazebo with the MyCobot model**\
+✅ **Starting the MoveIt motion planning interface**\
+✅ **Setting up the camera view**\
+✅ **Executing the Pick-and-Place demo**\
+✅ **Running `get_planning_scene_server` to process the scene**
+
+**To execute:**
+
+```bash
+bash robot.sh
+```
+
+---
+
+## **2. Running the Point Cloud Processing Script**
+
+📂 **Path to script:**\
 `~/ros2_ws/src/handbot_ros2/handbot_mtc_pick_place_demo/scripts/pointcloud.sh`
 
 This script automates:
 
-✅ **Converting PCD files to point cloud messages**  
+✅ **Converting PCD files to point cloud messages**\
 ✅ **Sending processed data to RViz for visualization**
 
 **To execute:**
 
 ```bash
 bash pointcloud.sh
-```
-
----
-
-## **2. Running the Robot Simulation & Pick-and-Place Task**
-
-📂 **Path to script:**  
-`~/ros2_ws/src/handbot_ros2/handbot_mtc_pick_place_demo/scripts/robot.sh`
-
-This script automates:
-
-✅ **Launching Gazebo with the MyCobot model**  
-✅ **Starting the MoveIt motion planning interface**  
-✅ **Setting up the camera view**  
-✅ **Executing the Pick-and-Place demo**
-
-**To execute:**
-
-```bash
-bash robot.sh
 ```
 
 ---
@@ -91,14 +92,14 @@ Before running the demo, update the directory paths in the relevant files:
 declare_parameter("output_directory", "/your/custom/path/", "Directory to save output PCD files");
 ```
 
-📂 **Located at:**  
+📂 **Located at:**\
 `~/ros2_ws/src/handbot_ros2/handbot_mtc_pick_place_demo/src/get_planning_scene_server.cpp`
 
 ---
 
 ### **Update the configuration file**
 
-📂 **File path:**  
+📂 **File path:**\
 `~/ros2_ws/src/handbot_ros2/handbot_mtc_pick_place_demo/config/get_planning_scene_server.yaml`
 
 Modify these values with your directory:
@@ -110,26 +111,9 @@ debug_pcd_filename: "debug_cloud.pcd"
 
 ---
 
-## **5. Launching the Point Cloud Viewer**
-
-Run the following **ROS2 launch command**, adjusting the file path as needed:
-
-```bash
-ros2 launch handbot_mtc_pick_place_demo point_cloud_viewer.launch.py file_name:=/your/custom/path/5_objects_cloud_debug_cloud.pcd
-```
-
-This script will:
-
-✅ **Convert PCD files to point cloud messages**  
-✅ **Process and visualize the point cloud using RViz**
-
----
-
 ## **Contact**
 
 For issues or contributions, create an **issue** or a **pull request** on the **[GitHub repository](https://github.com/darshmenon/handbot/)**.
 
 ---
-
-This version fixes structural inconsistencies, improves clarity, and ensures all instructions are properly numbered and formatted. Let me know if you need any further refinements! 🚀
 
