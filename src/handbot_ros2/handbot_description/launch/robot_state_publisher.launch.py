@@ -6,8 +6,8 @@ This launch file sets up the complete visualization environment for the handbot 
 including robot state publisher, joint state publisher, and RViz2. It handles loading
 and processing of URDF/XACRO files and controller configurations.
 
-:author: Addison Sears-Collins
-:date: November 15, 2024
+:author: darsh Menon
+:date: March 11,2025
 """
 import os
 from pathlib import Path

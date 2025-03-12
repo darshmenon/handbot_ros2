@@ -9,7 +9,6 @@
  * It uses surface normal estimation, Euclidean clustering, and RANSAC plane fitting to identify
  * the support surface, separate objects above it, and return the plane coefficients.
  *
- * @author Addison Sears-Collins
  * @date December 20, 2024
  */
 

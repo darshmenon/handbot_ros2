@@ -14,7 +14,7 @@ Configuration:
     The node uses configuration from 'config/get_planning_scene_server.yaml'
     in the handbot_mtc_pick_place_demo package.
 
-:author: Addison Sears-Collins
+:author: darsh Menon
 :date: December 19, 2024
 """
 

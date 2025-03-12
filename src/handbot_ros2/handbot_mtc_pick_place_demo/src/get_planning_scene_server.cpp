@@ -1,34 +1,6 @@
 /**
  * @file get_planning_scene_server.cpp
  * @brief ROS 2 service for processing point cloud data to generate a MoveIt planning scene.
- *
- * This program implements a ROS 2 service that processes point cloud and RGB image data
- * to generate CollisionObjects for a MoveIt planning scene. It segments the input point cloud,
- * fits primitive shapes to the segments, creates corresponding CollisionObjects, and provides
- * the necessary data for subsequent grasp generation.
- *
- * Service:
- *     get_planning_scene_handbot (handbot_interfaces/srv/GetPlanningScene):
- *         Processes point cloud data and returns a planning scene
- *
- * Subscription Topics:
- *     [point_cloud_topic] (sensor_msgs/PointCloud2): Input point cloud data
- *     [rgb_image_topic] (sensor_msgs/Image): Input RGB image data
- *
- * Service Input:
- *     target_shape (string): Target object shape (e.g., "cylinder", "box")
- *     target_dimensions (vector<double>): Approximate target object dimensions
- *
- * Service Output:
- *     scene_world (moveit_msgs/PlanningSceneWorld): Contains CollisionObjects for all detected objects
- *     full_cloud (sensor_msgs/PointCloud2): Full scene point cloud
- *     rgb_image (sensor_msgs/Image): RGB image of the scene
- *     target_object_id (string): ID of the target object in the PlanningSceneWorld
- *     support_surface_id (string): ID of the support surface in the PlanningSceneWorld
- *     success (bool): Indicates if the operation was successful
- *
- * @author Addison Sears-Collins
- * @date December 20, 2024
  */
 
 #include <rclcpp/rclcpp.hpp>

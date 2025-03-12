@@ -6,7 +6,7 @@ This launch file configures and starts a pick-and-place demo using the MoveIt Ta
 framework with perception capabilities. It sets up the necessary configurations for
 trajectory execution, motion planning, and robot control specifically for the handbot platform.
 
-:author: Addison Sears-Collins
+:author: darsh Menon
 :date: December 19, 2024
 """
 

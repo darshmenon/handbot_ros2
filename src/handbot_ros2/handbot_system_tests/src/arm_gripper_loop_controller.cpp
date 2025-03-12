@@ -12,8 +12,7 @@
  *     /gripper_action_controller/gripper_cmd (control_msgs/GripperCommand):
  *         Commands for opening and closing the gripper
  *
- * @author Addison Sears-Collins
- * @date November 16, 2024
+ * @date March 11, 2025
  */
 
 #include <chrono>

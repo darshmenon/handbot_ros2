@@ -9,7 +9,6 @@
  * with XYZ, RGB, normal vectors, curvature values, and Radius-based Surface Descriptor (RSD) values.
  * It uses the PCL library for point cloud processing.
  *
- * @author Addison Sears-Collins
  * @date December 20, 2024
  */
 

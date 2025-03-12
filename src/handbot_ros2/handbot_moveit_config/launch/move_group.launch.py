@@ -6,7 +6,7 @@ This script creates a ROS 2 launch file that starts the necessary nodes and serv
 for controlling a handbot robotic arm using MoveIt 2. It loads configuration files,
 starts the move_group node, and optionally launches RViz for visualization.
 
-:author: Addison Sears-Collins
+:author: darsh Menon
 :date: December 13, 2024
 """
 

@@ -15,8 +15,8 @@ Launch Sequence:
     2. Arm Controller (starts after Joint State Broadcaster)
     3. Gripper Action Controller (starts after Arm Controller)
 
-:author: Addison Sears-Collins
-:date: November 15, 2024
+:author: darsh Menon
+:date: March 11,2025
 """
 
 from launch import LaunchDescription

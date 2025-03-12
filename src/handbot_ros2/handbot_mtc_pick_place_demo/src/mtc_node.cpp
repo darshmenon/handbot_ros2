@@ -29,7 +29,6 @@
  * Topics Published:
  * - Various topics for trajectory execution and visualization (specific topics depend on MoveIt configuration)
  *
- * @author Addison Sears-Collins
  * @date December 20, 2024
  */
 

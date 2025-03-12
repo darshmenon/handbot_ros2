@@ -6,7 +6,6 @@
  * and Radius-based Surface Descriptor (RSD) values for each point in a given point cloud.
  * It uses the PCL library for point cloud processing.
  *
- * @author Addison Sears-Collins
  * @date December 20, 2024
  */
 

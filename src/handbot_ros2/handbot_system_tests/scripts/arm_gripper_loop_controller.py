@@ -12,8 +12,8 @@ Action Clients:
     /gripper_action_controller/gripper_cmd (control_msgs/GripperCommand):
         Commands for opening and closing the gripper
 
-:author: Addison Sears-Collins
-:date: November 15, 2024
+:author: darsh Menon
+:date: March 11,2025
 """
 
 import time
