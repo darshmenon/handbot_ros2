@@ -19,7 +19,7 @@ sleep 15
 echo "Launching the Move Group interface..."
 ros2 launch handbot_moveit_config move_group.launch.py \
     rviz_config_file:=mtc_demos.rviz \
-    rviz_config_package:=handbot_mtc_demos &
+    rviz_config_package:=handbot_mtc_pick_place_demo &
 
 echo "Adjusting camera position..."
 gz service -s /gui/move_to/pose \
