@@ -1,4 +1,3 @@
-
 # **Handbot**
 
 ## **Overview**
@@ -6,16 +5,16 @@
 Handbot is a **ROS2-based pick-and-place robotic system** that utilizes **point cloud data** for planning and execution. This repository provides **scripts and configurations** to set up and run the pick-and-place demo.
 
 For a detailed workflow and project overview, refer to the tutorial:  
-📌 **[Handbot Project Workflow](https://docs.google.com/presentation/d/1_IrrrFWcnsJyO7S9RAhfpcaALf2ykr9DR3WG7Q5xyDs/edit?usp=sharing)**  
+📌 **[Handbot Project Workflow](https://docs.google.com/presentation/d/1_IrrrFWcnsJyO7S9RAhfpcaALf2ykr9DR3WG7Q5xyDs/edit?usp=sharing)**
 
 ---
 
 ## **Prerequisites**
 
-Before running the project, ensure you have the following installed:  
+Before running the project, ensure you have the following installed:
 
 ✅ **ROS2 Jazzy**  
-✅ **Dependencies for MoveIt and Point Cloud Processing**  
+✅ **Dependencies for MoveIt and Point Cloud Processing**
 
 ---
 
@@ -33,18 +32,17 @@ source install/setup.bash
 
 ---
 
-## **1. Running the Point Cloud Processing Script**  
+## **1. Running the Point Cloud Processing Script**
 
 📂 **Path to script:**  
-`~/ros2_ws/src/handbot_ros2/handbot_mtc_pick_place_demo/scripts/pointcloud.sh`  
+`~/ros2_ws/src/handbot_ros2/handbot_mtc_pick_place_demo/scripts/pointcloud.sh`
 
-This script handles:  
+This script automates:
 
-✅ **Point cloud filtering and segmentation**  
-✅ **Feature extraction**  
-✅ **Object clustering for pick-and-place**  
+✅ **Converting PCD files to point cloud messages**  
+✅ **Sending processed data to RViz for visualization**
 
-**To execute:**  
+**To execute:**
 
 ```bash
 bash pointcloud.sh
@@ -52,19 +50,19 @@ bash pointcloud.sh
 
 ---
 
-## **2. Running the Robot Simulation & Pick-and-Place Task**  
+## **2. Running the Robot Simulation & Pick-and-Place Task**
 
 📂 **Path to script:**  
-`~/ros2_ws/src/handbot_ros2/handbot_mtc_pick_place_demo/scripts/robot.sh`  
+`~/ros2_ws/src/handbot_ros2/handbot_mtc_pick_place_demo/scripts/robot.sh`
 
-This script automates:  
+This script automates:
 
 ✅ **Launching Gazebo with the MyCobot model**  
 ✅ **Starting the MoveIt motion planning interface**  
 ✅ **Setting up the camera view**  
-✅ **Executing the Pick-and-Place demo**  
+✅ **Executing the Pick-and-Place demo**
 
-**To execute:**  
+**To execute:**
 
 ```bash
 bash robot.sh
@@ -72,7 +70,7 @@ bash robot.sh
 
 ---
 
-## **3. Ensuring Execution Permissions**  
+## **3. Ensuring Execution Permissions**
 
 Before running the scripts, grant execution permissions if needed:
 
@@ -83,21 +81,22 @@ chmod +x ~/ros2_ws/src/handbot_ros2/handbot_mtc_pick_place_demo/scripts/robot.sh
 
 ---
 
-## **4. Updating Default Directory Paths**  
+## **4. Updating Default Directory Paths**
 
 Before running the demo, update the directory paths in the relevant files:
 
-### **Modify the default PCD file path in `get_planning_scene_server.cpp`**  
+### **Modify the default PCD file path in** `get_planning_scene_server.cpp`
 
 ```cpp
 declare_parameter("output_directory", "/your/custom/path/", "Directory to save output PCD files");
 ```
+
 📂 **Located at:**  
 `~/ros2_ws/src/handbot_ros2/handbot_mtc_pick_place_demo/src/get_planning_scene_server.cpp`
 
 ---
 
-### **Update the configuration file**  
+### **Update the configuration file**
 
 📂 **File path:**  
 `~/ros2_ws/src/handbot_ros2/handbot_mtc_pick_place_demo/config/get_planning_scene_server.yaml`
@@ -111,7 +110,7 @@ debug_pcd_filename: "debug_cloud.pcd"
 
 ---
 
-## **5. Launching the Point Cloud Viewer**  
+## **5. Launching the Point Cloud Viewer**
 
 Run the following **ROS2 launch command**, adjusting the file path as needed:
 
@@ -119,11 +118,18 @@ Run the following **ROS2 launch command**, adjusting the file path as needed:
 ros2 launch handbot_mtc_pick_place_demo point_cloud_viewer.launch.py file_name:=/your/custom/path/5_objects_cloud_debug_cloud.pcd
 ```
 
----
+This script will:
 
-
-## **Contact**  
-
-For issues or contributions, create an **issue** or a **pull request** on the **[GitHub repository](https://github.com/darshmenon/handbot/)**.  
+✅ **Convert PCD files to point cloud messages**  
+✅ **Process and visualize the point cloud using RViz**
 
 ---
+
+## **Contact**
+
+For issues or contributions, create an **issue** or a **pull request** on the **[GitHub repository](https://github.com/darshmenon/handbot/)**.
+
+---
+
+This version fixes structural inconsistencies, improves clarity, and ensures all instructions are properly numbered and formatted. Let me know if you need any further refinements! 🚀
+

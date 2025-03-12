@@ -17,8 +17,6 @@ Nodes:
     - /pcd_to_pointcloud (pcl_ros): Converts PCD file to point cloud messages
     - /rviz2 (rviz2): Visualization tool for viewing the point cloud
 
-:author: darsh Menon
-:date: December 19, 2024
 """
 import os
 from launch import LaunchDescription
